@@ -1,0 +1,132 @@
+header {
+    background-color: rgb(245, 154, 36);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 80%;
+}
+
+.menu {
+    padding-right: 10%;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-right: 5%;
+    
+}
+
+.menu ul {
+    display: flex;
+    
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(2, 167, 240);
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C6C6C;
+
+}
+
+
+/* BIENVENUE */
+
+h1 {
+    font-size: 48;
+    font-family: Poppins;
+    color : #02A7F0;
+}
+
+.sectionBackgroundBienvenue {
+    background-image: url("assets/images/slide/slide-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.divBienvenue {
+
+    
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 380px;
+    
+    
+
+}
+
+.pLoremBienvenue {
+    
+    text-align:center; 
+    vertical-align: middle;
+    font-size: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+
+    
+
+}
+
+
+/* BIENVENUE */
+
+h1 {
+    font-size: 48;
+    font-family: Poppins;
+    color : #02A7F0;
+}
+
+.sectionBackgroundBienvenue {
+    background-image: url("assets/images/slide/slide-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.divBienvenue {
+
+    
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 380px;
+    
+    
+
+}
+
+.pLoremBienvenue {
+    
+    text-align:center; 
+    vertical-align: middle;
+    font-size: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+}
