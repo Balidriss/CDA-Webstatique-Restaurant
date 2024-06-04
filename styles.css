@@ -39,3 +39,16 @@ header {
     align-items: center;
     background-color: #6C6C6C;
 }
+/* section contact */
+
+#contact article{
+    display: flex;
+}
+
+#contact article > *{
+width: 30%;
+}
+
+#contact img{
+    width: 100%;
+}
