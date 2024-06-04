@@ -31,6 +31,8 @@ header {
     text-decoration: none;
     color: rgb(2, 167, 240);
 }
+
+
 /* Footer */
 
 .footer {
@@ -39,6 +41,68 @@ header {
     align-items: center;
     background-color: #6C6C6C;
 }
+
+.lien-news {
+    //background-color: red;
+    color: white;
+}
+
+.lien-news ul {
+    padding-left: 0;
+}
+
+.lien-news li {
+    list-style-type: none;
+}
+
+.form-news {
+    //background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+
+.google-map{
+    //background-color: aquamarine;
+}
+
+.social-news{
+    //background-color: bisque;
+    width: 40%;
+    padding-left: 5%;
+    color: white;
+    
+}
+
+.newsletter2{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#newsletter {
+    border: solid rgb(245, 154, 36) 2px;
+    margin-bottom: 5px;
+}
+
+
+.news_global{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+#submit-newsletter{
+    background-color: rgb(245, 154, 36);
+    border-radius: 40px;
+    width: 60%;
+    box-shadow: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 /* section contact */
 
 #contact article{
@@ -52,6 +116,9 @@ width: 30%;
 #contact img{
     width: 100%;
 }
+
+
+
 
 
 /* BIENVENUE */
