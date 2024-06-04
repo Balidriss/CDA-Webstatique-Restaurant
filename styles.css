@@ -19,19 +19,20 @@ header {
 .menu li {
     list-style-type: none;
     margin-right: 5%;
-    
+
 }
 
 .menu ul {
     display: flex;
-    
-    
+
+
 }
 
 .menu a {
     text-decoration: none;
     color: rgb(2, 167, 240);
 }
+
 /* Footer */
 
 .footer {
@@ -40,24 +41,115 @@ header {
     align-items: center;
     background-color: #6C6C6C;
 }
-/* section contact */
 
-#contact article{
+/* section contact */
+#contact {
+    height: 400px;
+}
+
+#contact * {
+    margin: 0 auto;
+}
+
+#contact .articles {
     display: flex;
 }
 
-#contact article > *{
-width: 30%;
+#contact .articles .article-form>* {
+    width: 50%;
 }
 
-#contact img{
-    width: 100%;
+#contact article {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: rgb(246, 246, 246);
 }
+
+#contact .articles .article-form {
+    width: 80%;
+}
+
+#contact .articles .article-form .block-img {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+
+}
+
+#contact .block-img img {
+    box-shadow: 10px 10px 50px 0px;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+#contact img {
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+
+
+#contact .contact-details {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid rgb(0, 114, 174) 2px;
+    width: 20%;
+
+}
+
+#contact .icon-contact {
+    width: 50px;
+
+}
+
+#contact .block-details>* {
+    height: 140px;
+
+}
+
+#contact .contact-details .block-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#contact .article-form h3 {
+    margin-top: 1rem;
+    color: #6C6C6C;
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#contact .contact-details h3 {
+    margin-top: 1rem;
+    color: rgb(0, 166, 240);
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
 
 
 /* BIENVENUE */
 
 h1 {
+
     font-size: 84px;
     font-family: Roboto;
     font-weight: 400;
@@ -65,6 +157,7 @@ h1 {
     margin-bottom: -5px;
     letter-spacing: 5px;
     
+
 }
 
 .sectionBackgroundBienvenue {
@@ -79,22 +172,22 @@ h1 {
 
 .divBienvenue {
 
-    
+
     text-align: center;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     margin-left: 50px;
-
     min-height: 550px;
+
 
     
 }
 
 .pLoremBienvenue {
-    
-    text-align:center; 
+
+    text-align: center;
     vertical-align: middle;
     font-size: 22px;
     line-height: 1.4;
