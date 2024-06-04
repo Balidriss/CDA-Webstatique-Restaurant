@@ -18,19 +18,20 @@ header {
 .menu li {
     list-style-type: none;
     margin-right: 5%;
-    
+
 }
 
 .menu ul {
     display: flex;
-    
-    
+
+
 }
 
 .menu a {
     text-decoration: none;
     color: rgb(2, 167, 240);
 }
+
 /* Footer */
 
 .footer {
@@ -39,27 +40,51 @@ header {
     align-items: center;
     background-color: #6C6C6C;
 }
+
 /* section contact */
+#contact * {
+    margin: auto;
+}
 
-#contact article{
+#contact article {
     display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
 
-#contact article > *{
-width: 30%;
+#contact article>* {
+    width: 34%;
 }
 
-#contact img{
+#contact img {
     width: 100%;
 }
 
+#contact .icon-contact {
+    width: 20px;
+
+}
+
+#contact .contact-details {
+    text-align: center;
+    border: solid rgb(0, 114, 174);
+    height: 100%;
+}
+
+#contact h4 {
+
+    color: rgb(0, 166, 240);
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
 
 /* BIENVENUE */
 
 h1 {
     font-size: 48;
     font-family: Poppins;
-    color : #02A7F0;
+    color: #02A7F0;
 }
 
 .sectionBackgroundBienvenue {
@@ -72,7 +97,7 @@ h1 {
 
 .divBienvenue {
 
-    
+
     text-align: center;
     display: inline-flex;
     flex-direction: column;
@@ -80,14 +105,14 @@ h1 {
     align-items: center;
 
     min-height: 380px;
-    
-    
+
+
 
 }
 
 .pLoremBienvenue {
-    
-    text-align:center; 
+
+    text-align: center;
     vertical-align: middle;
     font-size: 20px;
 
