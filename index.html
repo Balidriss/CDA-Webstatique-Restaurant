@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,15 +42,16 @@
 
             <div class="divBienvenue">
                 <h1> Bienvenue </h1>
-                <p class="pLoremBienvenue"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor
-                    massa et imperdiet mattis. Aenean ultrices consequat odio quis pharetra. Donec velit massa, maximus
-                    sit amet tristique sit amet, dictum nec sapien. Nam elementum gravida imperdiet. Curabitur nulla
-                    mauris, bibendum ac eleifend mattis, iaculis id erat. Nullam in finibus enim. Proin velit lorem,
-                    imperdiet ut mollis non, vehicula vitae sem. Donec iaculis et lacus et vulputate. Vivamus venenatis
-                    quis risus sed ullamcorper. Nulla ut magna nec sem maximus cursus vel nec quam. Ut facilisis metus
-                    purus, tempor vehicula ipsum porttitor nec. </p>
 
-                <button> <a href="#"> Nous contacter </a> </button>
+                <div class="divSecondeBienvenue">
+
+                    <p class="pLoremBienvenue"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor massa et imperdiet mattis. Aenean ultrices consequat odio quis pharetra. Donec velit massa, maximus sit amet tristique sit amet, dictum nec sapien. Nam elementum gravida imperdiet. Curabitur nulla mauris, bibendum ac eleifend mattis, iaculis id erat. Nullam in finibus enim. </p>
+
+                    <button class="boutonBienvenue"> <a href="#"> Nous contacter </a> </button>
+
+                </div>
+
+
             </div>
 
         </section>
@@ -55,58 +59,59 @@
 
     <section id="contact">
         <h2>Contactez-nous</h2>
-        <article>
-            <div><img src="assets/images/phone-contact.jpg" alt="Femme au téléphone"></div>
-            <form>
-                <h3>Formulaire:</h3>
-                <div class="name">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Nom et Prénom">
-                </div>
-                <div class="email-contact">
-                    <label for="email-contact"></label>
-                    <input type="text" id="email-contact" placeholder="adress@email.com">
-                </div>
-                <div class="subject">
-                    <label for="subject"></label>
-                    <input type="text" id="subject" placeholder="Objet de votre demande">
-                </div>
-                <div class="radio">
-                    <label for="radio-design">Design</label>
-                    <input type="radio" id="radio-design" name="type" value="design" checked />
-                    <label for="radio-web">Web</label>
-                    <input type="radio" id="radio-web" name="type" value="web" />
-                    <label for="radio-autre">Autre</label>
-                    <input type="radio" id="radio-autre" name="type" value="autre" />
-                </div>
-                <div>
-                    <label for="select"></label>
-                    <select name="countries" id="select">
-                        <option value="france">France</option>
-                        <option value="canada">Canada</option>
-                        <option value="japon">Japon</option>
-                        <option value="bresil">Brésil</option>
-                        <option value="australie">Australie</option>
-                        <option value="italie">Italie</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="textarea"></label>
-                    <textarea id="textarea" name="message" rows="5" cols="33">
+        <div class="articles">
+            <article class="article-form">
+                <div class="block-img"><img src="assets/images/phone-contact.jpg" alt="Femme au téléphone"></div>
+                <form>
+                    <h3>Formulaire:</h3>
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Nom et Prénom">
+                    </div>
+                    <div class="email-contact">
+                        <label for="email-contact"></label>
+                        <input type="text" id="email-contact" placeholder="adress@email.com">
+                    </div>
+                    <div class="subject">
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Objet de votre demande">
+                    </div>
+                    <div class="radio">
+                        <label for="radio-design">Design</label>
+                        <input type="radio" id="radio-design" name="type" value="design" checked />
+                        <label for="radio-web">Web</label>
+                        <input type="radio" id="radio-web" name="type" value="web" />
+                        <label for="radio-autre">Autre</label>
+                        <input type="radio" id="radio-autre" name="type" value="autre" />
+                    </div>
+                    <div>
+                        <label for="select"></label>
+                        <select name="countries" id="select">
+                            <option value="france">France</option>
+                            <option value="canada">Canada</option>
+                            <option value="japon">Japon</option>
+                            <option value="bresil">Brésil</option>
+                            <option value="australie">Australie</option>
+                            <option value="italie">Italie</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea id="textarea" name="message" rows="5" cols="33">
                 </textarea>
-                </div>
-                <div>
-                    <label for="consent-contact">Je consens à ce que mes données soit utilisées</label>
-                    <input id="consent-contact" type="checkbox">
-                </div>
-                <div>
-                    <label for="submit-contact"></label>
-                    <input id="submit-contact" type="submit">
-                </div>
-            </form>
-            <div class="contact-details">
-                <h4>Coordonnées</h4>
-                <div>
+                    </div>
+                    <div>
+                        <label for="consent-contact">Je consens à ce que mes données soit utilisées</label>
+                        <input id="consent-contact" type="checkbox">
+                    </div>
+                    <div>
+                        <input id="submit-contact" type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </article>
+            <article class="contact-details">
+                <h3>Coordonnées</h3>
+                <div class="block-details">
                     <div class="location">
                         <div class="icon-contact"><img src="assets/images/location-contact.svg"
                                 alt="Notre adresse : 123 Avenue des développeurs 12345 LA-VILLE-DU-WEB"></div>
@@ -118,7 +123,7 @@
                         <div class="icon-contact"><img src="assets/images/phone-contact.svg"
                                 alt="Notre numéro de téléphone : 0102030405"></div>
 
-                        <p>0102030405</p>
+                        <p>.01.02.03.04.05</p>
                     </div>
                     <div class="mail">
                         <div class="icon-contact"><img src="assets/images/mail-contact.svg"
@@ -127,34 +132,36 @@
                         <p>contact@compagny-design.com</p>
                     </div>
                 </div>
-        </article>
-    </section>
-
-    <footer class="footer">
-        <div class="lien-news">
-            <a>l'entreprise</a>
-            <a>Nos partenaire</a>
-            <a>Recrutement</a>
+            </article>
         </div>
-        <form class="form-news">
-            <label for="newsletter">Newsletter</label>
-            <input type="email" id="newsletter" name="newsletter" placeholder="adresse@mail.com">
-            <label for="submit-newsletter"></label>
-            <input type="submit" id="submit-newsletter" name="submit-newsletter" value="Envoyer">
+    </section>
+<footer class="footer">
+<div class="news_global">
+    <div class="lien-news">
+        <ul>
+            <li><a>L'entreprise</a></li>
+            <li><a>Nos partenaire</a></li>
+            <li><a>Recrutement</a></li>
+        </ul>
+    </div>
+    <form class="form-news">
+        <label for="newsletter" class="newsletter2">Newsletter</label>
+        <input type="email" id="newsletter" name="newsletter" placeholder="adresse@mail.com">
+        <label for="submit-newsletter" ></label>
+        <input type="submit" id="submit-newsletter" name="submit-newsletter" value="Envoyer">
 
-        </form>
-        <div class="google-map" style="width: 100%"><iframe width="400" height="200" frameborder="0" scrolling="no"
-                marginheight="0" marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=222%20boulevard%20Flaubert+(Map%20google%20buisnelle)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                    href="https://www.gps.ie/">gps devices</a></iframe></div>
-        <div class="social-news">
-            <h3></h3>
+    </form>
+</div>
+    <div class="google-map" style="width: 75%"><iframe width="100%" height="90" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=222%20boulevard%20Flaubert+(Map%20google%20buisnelle)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div>
+    <div class="social-news">
+        <h3>Rejoinez-nous</h3>
+        <div class="social_media">
             <image src="assets/images/icons8-facebook.svg"></image>
             <image src="assets/images/icons8-instagram.svg"></image>
             <image src="assets/images/icons8-twitter.svg"></image>
         </div>
-    </footer>
-
+    </div>
+</footer>
 </body>
 
 </html>
