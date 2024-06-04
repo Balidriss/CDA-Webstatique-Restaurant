@@ -31,7 +31,6 @@ header {
     text-decoration: none;
     color: rgb(2, 167, 240);
 }
-
 /* Footer */
 
 .footer {
@@ -39,53 +38,19 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #6C6C6C;
+}
+/* section contact */
 
+#contact article{
+    display: flex;
 }
 
-
-/* BIENVENUE */
-
-h1 {
-    font-size: 48;
-    font-family: Poppins;
-    color : #02A7F0;
+#contact article > *{
+width: 30%;
 }
 
-.sectionBackgroundBienvenue {
-    background-image: url("assets/images/slide/slide-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-}
-
-.divBienvenue {
-
-    
-    text-align: center;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 380px;
-    
-    
-
-}
-
-.pLoremBienvenue {
-    
-    text-align:center; 
-    vertical-align: middle;
-    font-size: 20px;
-
-    display: inline-block;
-    vertical-align: middle;
-    width: 70%;
-
-    
-
+#contact img{
+    width: 100%;
 }
 
 
