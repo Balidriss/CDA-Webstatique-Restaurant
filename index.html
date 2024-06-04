@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
 </head>
@@ -55,58 +54,60 @@
 
     <section id="contact">
         <h2>Contactez-nous</h2>
-        <article>
-            <div><img src="assets/images/phone-contact.jpg" alt="Femme au téléphone"></div>
-            <form>
-                <h3>Formulaire:</h3>
-                <div class="name">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Nom et Prénom">
-                </div>
-                <div class="email-contact">
-                    <label for="email-contact"></label>
-                    <input type="text" id="email-contact" placeholder="adress@email.com">
-                </div>
-                <div class="subject">
-                    <label for="subject"></label>
-                    <input type="text" id="subject" placeholder="Objet de votre demande">
-                </div>
-                <div class="radio">
-                    <label for="radio-design">Design</label>
-                    <input type="radio" id="radio-design" name="type" value="design" checked />
-                    <label for="radio-web">Web</label>
-                    <input type="radio" id="radio-web" name="type" value="web" />
-                    <label for="radio-autre">Autre</label>
-                    <input type="radio" id="radio-autre" name="type" value="autre" />
-                </div>
-                <div>
-                    <label for="select"></label>
-                    <select name="countries" id="select">
-                        <option value="france">France</option>
-                        <option value="canada">Canada</option>
-                        <option value="japon">Japon</option>
-                        <option value="bresil">Brésil</option>
-                        <option value="australie">Australie</option>
-                        <option value="italie">Italie</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="textarea"></label>
-                    <textarea id="textarea" name="message" rows="5" cols="33">
+        <div class="articles">
+            <article class="article-form">
+                <div class="block-img"><img src="assets/images/phone-contact.jpg" alt="Femme au téléphone"></div>
+                <form>
+                    <h3>Formulaire:</h3>
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Nom et Prénom">
+                    </div>
+                    <div class="email-contact">
+                        <label for="email-contact"></label>
+                        <input type="text" id="email-contact" placeholder="adress@email.com">
+                    </div>
+                    <div class="subject">
+                        <label for="subject"></label>
+                        <input type="text" id="subject" placeholder="Objet de votre demande">
+                    </div>
+                    <div class="radio">
+                        <label for="radio-design">Design</label>
+                        <input type="radio" id="radio-design" name="type" value="design" checked />
+                        <label for="radio-web">Web</label>
+                        <input type="radio" id="radio-web" name="type" value="web" />
+                        <label for="radio-autre">Autre</label>
+                        <input type="radio" id="radio-autre" name="type" value="autre" />
+                    </div>
+                    <div>
+                        <label for="select"></label>
+                        <select name="countries" id="select">
+                            <option value="france">France</option>
+                            <option value="canada">Canada</option>
+                            <option value="japon">Japon</option>
+                            <option value="bresil">Brésil</option>
+                            <option value="australie">Australie</option>
+                            <option value="italie">Italie</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea id="textarea" name="message" rows="5" cols="33">
                 </textarea>
-                </div>
-                <div>
-                    <label for="consent-contact">Je consens à ce que mes données soit utilisées</label>
-                    <input id="consent-contact" type="checkbox">
-                </div>
-                <div>
-                    <label for="submit-contact"></label>
-                    <input id="submit-contact" type="submit">
-                </div>
-            </form>
-            <div class="contact-details">
-                <h4>Coordonnées</h4>
-                <div>
+                    </div>
+                    <div>
+                        <label for="consent-contact">Je consens à ce que mes données soit utilisées</label>
+                        <input id="consent-contact" type="checkbox">
+                    </div>
+                    <div>
+                        <label for="submit-contact"></label>
+                        <input id="submit-contact" type="submit">
+                    </div>
+                </form>
+            </article>
+            <article class="contact-details">
+                <h3>Coordonnées</h3>
+                <div class="block-details">
                     <div class="location">
                         <div class="icon-contact"><img src="assets/images/location-contact.svg"
                                 alt="Notre adresse : 123 Avenue des développeurs 12345 LA-VILLE-DU-WEB"></div>
@@ -118,7 +119,7 @@
                         <div class="icon-contact"><img src="assets/images/phone-contact.svg"
                                 alt="Notre numéro de téléphone : 0102030405"></div>
 
-                        <p>0102030405</p>
+                        <p>.01.02.03.04.05</p>
                     </div>
                     <div class="mail">
                         <div class="icon-contact"><img src="assets/images/mail-contact.svg"
@@ -127,7 +128,8 @@
                         <p>contact@compagny-design.com</p>
                     </div>
                 </div>
-        </article>
+            </article>
+        </div>
     </section>
 
     <footer class="footer">
